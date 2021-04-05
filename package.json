@@ -1,0 +1,56 @@
+{
+  "name": "security-price-monitor",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=14.16.0 <15"
+  },
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && webpack --mode production && webpack serve",
+    "serve": "webpack serve --mode development --env development"
+  },
+  "author": "",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@vue/babel-preset-app": "^4.5.12",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.0",
+    "dotenv": "^8.2.0",
+    "dotenv-webpack": "^7.0.2",
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.8.0",
+    "html-webpack-plugin": "^5.3.1",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.2.9",
+    "postcss-loader": "^5.2.0",
+    "prettier": "^2.2.1",
+    "prettier-eslint": "^12.0.0",
+    "process": "^0.11.10",
+    "rimraf": "^3.0.2",
+    "sass-loader": "^11.0.1",
+    "vue-loader": "^15.9.6",
+    "vue-router": "^3.5.1",
+    "vue-style-loader": "^4.1.3",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "lightweight-charts": "^3.3.0",
+    "vue": "^2.6.12",
+    "vue-i18n": "^8.24.2",
+    "vuex": "^3.6.2"
+  }
+}
