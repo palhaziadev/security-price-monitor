@@ -31,6 +31,9 @@
 ## Build Setup
 
 ``` bash
+# create .env file with environment variables
+create .env file based on .env-example file, all key/value pairs needed but you can define your custom values 
+
 # install dependencies
 $ yarn
 
